@@ -1,8 +1,8 @@
-# 2factor-example
+# 2fa-example
 
 *By [RiinaKw](https://riina-k.net/)*
 
-Simple Two-Factor Authentication example.
+Simple Two-Factor Authentication(2FA) example.
 
 ## Usage
 1. Show `demo/index.php` in your browser.
