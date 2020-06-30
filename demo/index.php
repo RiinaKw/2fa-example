@@ -16,11 +16,14 @@ require_once($root_dir . '/vendor/autoload.php');
       Two-Factor Authentication for
       <?php echo Config::ACCOUNT_NAME; ?>@<?php echo Config::ISSUER; ?>
     </h1>
-    <img src="qr.php" />
-    <form action="auth.php" method="post">
-        <label>enter token : </label>
-        <input type="text" name="otp" />
-        <button type="submit">send</button>
-    </form>
+    <main style="text-align: center;">
+      <img src="qr.php" />
+      <hr />
+      <form action="auth.php" method="post">
+          <label>enter token : </label>
+          <input type="text" name="otp" />
+          <button type="submit">send</button>
+      </form>
+    </main>
   </body>
 </html>
